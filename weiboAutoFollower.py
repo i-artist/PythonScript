@@ -50,10 +50,10 @@ class weiboAutoFollower(object):
         with open(CodePath, "rb") as f:
             base64_data = base64.b64encode(f.read())
         query_data = {
-            "user": "zhong666666",
-            "pass": "zhong0000",
-            "softid": "897313",
-            "codetype": "1005",
+            "user": "zhong",
+            "pass": "",
+            "softid": "",
+            "codetype": "",
             "file_base64": base64_data
         }
         r = requests.post(
